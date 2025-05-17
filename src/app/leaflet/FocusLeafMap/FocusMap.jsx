@@ -8,8 +8,8 @@ function FocusMap({ lat, lng }) {
 
   useEffect(() => {
     if (lat && lng) {
-      //   map.setView([lat, lng], 13); // zoom level 13
-      map.flyTo([lat, lng], 13, { duration: 1.5 });
+      //   map.setView([lat, lng], 17); // zoom level 17
+      map.flyTo([lat, lng], 17, { duration: 1.5 });
     }
   }, [lat, lng, map]);
 
